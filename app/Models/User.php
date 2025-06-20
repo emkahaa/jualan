@@ -25,6 +25,10 @@ class User extends Authenticatable
         'user_type',
         'status',
         'uuid', // Tambahkan 'uuid' di fillable
+        'profile_picture',
+        'gender',
+        'date_of_birth',
+        'phone_number',
     ];
 
     /**
